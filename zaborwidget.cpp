@@ -33,7 +33,7 @@ void ZaborWidget::rebuildMessageCache(Message &m)
         if (!line.isValid())
             break;
 
-        line.setLineWidth(maxWidth*2);
+        line.setLineWidth(maxWidth);
         line.setPosition(QPointF(0, height));
         height += line.height();
     }
